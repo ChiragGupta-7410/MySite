@@ -1,0 +1,240 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+header
+{
+  background-color: #CDF0EA;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  margin: 0;
+  position: relative;
+  top:0;
+}
+
+nav{
+  display:inline-block;
+  font-size: 1.5625rem;
+  height: 30px;
+  position: absolute;
+  right: 300px;
+  top: 35px;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', "Monotype Corsiva",cursive;
+  font-size: 6rem;
+  margin: 0;
+  padding-top: 100px;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: "Monotype Corsiva",cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+h3{
+  color: #11999E;
+  font-size: 1.3rem;
+
+}
+
+hr{
+  border-color: #CDF0EA;
+  border-style: dotted none none;
+  border-width: 7px;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a , p {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Logo-First{
+  height: 72px;
+  left: 300px;
+  position: absolute;
+  top: 14px;
+  width: 72px;
+}
+
+.Menu-Bar{
+  color: #66BFBF;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Link{
+  color: #66BFBF;
+  display: inline-block;
+  width: 9rem;
+}
+
+.Link:hover{
+  color: #3BACB6;
+}
+
+.Top-Container{
+  background-color: #CDF0EA;
+  position: relative;
+}
+
+.Cloud{
+  position: absolute;
+  width: 200px;
+}
+
+.Top{
+  right: 250px;
+  top: 50px;
+}
+
+.Bottom{
+  left: 250px;
+  top: 300;
+}
+
+.Land{
+  width: 60%;
+}
+
+.Middle-Container{
+  background-color: #F9F9F9;
+}
+
+.Logo-Second{
+  height: 128px;
+  padding-top: 100px;
+  width: 128px;
+}
+
+.Hello{
+  font-size: 3rem;
+  margin: 20px auto;
+}
+
+.Introduction{
+  font-size: 1.25rem;
+  margin:auto;
+  width: 30%;
+
+}
+
+.Skill-Row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Skill-Icon{
+  width: 25%;
+}
+.First , .Third{
+  float: left;
+  margin-right: 30px;
+}
+
+.Second{
+  float: right;
+  margin-left: 30px;
+}
+
+.Skill-Description{
+  line-height: 1.5;
+  font-size: 1.25rem
+
+}
+
+.Middle-Link{
+  color: #A0D995;
+}
+
+.Middle-Link:hover{
+  color: #D3EBCD;
+}
+
+.Divider{
+  margin-bottom: 0;
+}
+
+.Bottom-Container{
+  background-color: #CCF3EE;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.Bottom-h2{
+  color: #570A57;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.Bottom-h3{
+  color: #2E0249;
+}
+
+.Bottom-p{
+  color: Black;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background: #FFE6E6;
+  background-image: -webkit-linear-gradient(top, #FFE6E6, #F2D1D1);
+  background-image: -moz-linear-gradient(top, #FFE6E6, #F2D1D1);
+  background-image: -ms-linear-gradient(top, #FFE6E6, #F2D1D1);
+  background-image: -o-linear-gradient(top, #FFE6E6, #F2D1D1);
+  background-image: linear-gradient(to bottom, #FFE6E6, #F2D1D1);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  bottom: 50px;
+  color: #FF06B7;
+  font-family: Arial;
+  font-size: 24px;
+  left: 43.5%;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F9CEEE;
+  background-image: -webkit-linear-gradient(top, #F9CEEE, #F9F3EE);
+  background-image: -moz-linear-gradient(top, #F9CEEE, #F9F3EE);
+  background-image: -ms-linear-gradient(top, #F9CEEE, #F9F3EE);
+  background-image: -o-linear-gradient(top, #F9CEEE, #F9F3EE);
+  background-image: linear-gradient(to bottom, #F9CEEE, #F9F3EE);
+  text-decoration: none;
+}
+
+.Copyrights{
+  border: 1px black;
+  border-style: solid none none; 
+  background-color: #97C4B8;
+  padding: 50px 0 20px;
+}
+
+.Footer-Link{
+  color: #F47340;
+  margin: 16px 25px;
+}
+
+.Footer-Link:hover {
+  color: #F4E06D;
+}
+
+.Cite{
+  color: #00FFAB;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
